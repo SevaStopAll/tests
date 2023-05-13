@@ -22,15 +22,10 @@ public class isAnagram {
         return false;
     }
 
-    static boolean isAnagram2(String a, String b) {
-
-        return false;
-    }
-
     public static void main(String[] args) {
         String a = "anagramm";
         String b = "marganaa";
-        boolean ret = isAnagram2(a, b);
+        boolean ret = isAnagram(a, b);
         System.out.println( (ret) ? "Anagrams" : "Not Anagrams" );
     }
 
