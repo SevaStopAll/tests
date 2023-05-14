@@ -1,4 +1,4 @@
-package ru.job4j.order;
+package ru.job4j.order.source;
 
 public class SubstringComparisons {
     public static String getSmallestAndLargest(String s, int k) {

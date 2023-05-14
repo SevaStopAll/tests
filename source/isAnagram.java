@@ -1,4 +1,4 @@
-package ru.job4j.order;
+package ru.job4j.order.source;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -23,10 +23,6 @@ public class isAnagram {
     }
 
     public static void main(String[] args) {
-        String a = "anagramm";
-        String b = "marganaa";
-        boolean ret = isAnagram(a, b);
-        System.out.println( (ret) ? "Anagrams" : "Not Anagrams" );
     }
 
 }
