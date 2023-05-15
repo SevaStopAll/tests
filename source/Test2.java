@@ -1,4 +1,4 @@
-package ru.job4j.order;
+package ru.job4j.order.source;
 
 import java.util.ArrayList;
 import java.util.Arrays;

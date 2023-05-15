@@ -1,4 +1,4 @@
-package ru.job4j.order;
+package ru.job4j.order.source;
 
 public class Tockens {
     public static void main(String[] args) {
