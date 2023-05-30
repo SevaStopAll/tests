@@ -10,26 +10,22 @@ package ru.job4j.order.source;
         Return true if such pair exists or false otherwise.*/
 
 
-import java.util.HashSet;
-import java.util.Set;
-
-public class Douplicate3 {
+public class Douplicate3_TO_DO {
     public boolean containsNearbyAlmostDuplicate(int[] nums, int indexDiff, int valueDiff) {
-
         for (int i = 0; i < nums.length; i++) {
-            for (int j = 0; j < nums.length; j++) {
-                        if (j != i && Math.abs(i - j) <= indexDiff && i < nums.length && i > 0 && Math.abs(nums[i] - nums[j]) <= valueDiff) {
-                            return true;
-                        }
-                    }
+            for (int j = i + 1; j < nums.length; j++) {
+                if (i != j && Math.abs(i - j) <= indexDiff && Math.abs(nums[i] - nums[j]) <= valueDiff) {
+                    return true;
                 }
-        return false;
+            }
         }
+        return false;
+    }
 
 
 
     public static void main(String[] args) {
-        Douplicate3 dup = new Douplicate3();
-        System.out.println(dup.containsNearbyAlmostDuplicate(new int[] {-3,3,-6}, 2, 3));
+        Douplicate3_TO_DO dup = new Douplicate3_TO_DO();
+        System.out.println(dup.containsNearbyAlmostDuplicate(new int[] {1,2,3,1}, 3, 0));
     }
 }

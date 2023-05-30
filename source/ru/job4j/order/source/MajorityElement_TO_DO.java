@@ -3,7 +3,7 @@ package ru.job4j.order.source.ru.job4j.order.source;
 import java.util.HashMap;
 import java.util.Map;
 
-public class MajorityElement_NEEDS_REWORK {
+public class MajorityElement_TO_DO {
     public int majorityElement(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int i : nums) {
@@ -16,7 +16,7 @@ public class MajorityElement_NEEDS_REWORK {
     }
 
     public static void main(String[] args) {
-        MajorityElement_NEEDS_REWORK maj = new MajorityElement_NEEDS_REWORK();
+        ru.job4j.order.source.ru.job4j.order.source.MajorityElement_TO_DO maj = new ru.job4j.order.source.ru.job4j.order.source.MajorityElement_TO_DO();
         System.out.println(maj.majorityElement(new int[]{3, 2, 3}));
     }
 }
