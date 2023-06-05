@@ -1,4 +1,4 @@
-package ru.job4j.order.source.ru.job4j.order.source;
+package ru.job4j.order.ru.tests;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -16,7 +16,7 @@ public class MajorityElement_TO_DO {
     }
 
     public static void main(String[] args) {
-        ru.job4j.order.source.ru.job4j.order.source.MajorityElement_TO_DO maj = new ru.job4j.order.source.ru.job4j.order.source.MajorityElement_TO_DO();
+        MajorityElement_TO_DO maj = new MajorityElement_TO_DO();
         System.out.println(maj.majorityElement(new int[]{3, 2, 3}));
     }
 }

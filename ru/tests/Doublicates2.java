@@ -1,8 +1,6 @@
-package ru.job4j.order.source;
+package ru.job4j.order.ru.tests;
 
-import java.util.Arrays;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 public class Doublicates2 {

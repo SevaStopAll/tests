@@ -1,7 +1,4 @@
-package ru.job4j.order.source.ru.job4j.order.source;
-
-import java.util.HashSet;
-import java.util.Set;
+package ru.job4j.order.ru.tests;
 
 public class TimeToBuy {
 

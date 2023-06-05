@@ -1,4 +1,4 @@
-package ru.job4j.order.source;
+package ru.job4j.order.ru.tests;
 
 /*        You are given an integer array nums and two integers indexDiff and valueDiff.
 

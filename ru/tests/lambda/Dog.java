@@ -1,4 +1,4 @@
-package ru.job4j.order.source.lambda;
+package ru.job4j.order.ru.tests.lambda;
 
 import java.util.ArrayList;
 import java.util.Comparator;

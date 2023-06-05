@@ -1,23 +1,25 @@
-package ru.job4j.order.source;
+package ru.job4j.order.ru.tests;
 
+
+import java.util.*;
 
 public class RemoveDuplicates {
 
     public ListNode deleteDuplicates(ListNode head) {
-        if (head.next == null) {
-            return head;
-        }
-        ListNode currentNode = head.next;
-        while (currentNode != null) {
-            ListNode node = currentNode.next;
-            if (head.val == currentNode.val) {
-                head.next = null;
+        ListNode list = head;
+        while(list != null) {
+            if (list.next == null) {
+                break;
             }
-            head = currentNode;
-            currentNode = node;
+            if (list.val == list.next.val) {
+                list.next = list.next.next;
+            } else {
+                list = list.next;
+            }
         }
         return head;
     }
+
 
 
 
@@ -26,11 +28,13 @@ public class RemoveDuplicates {
         ListNode head2 = new ListNode(1);
         ListNode head3 = new ListNode(2);
         ListNode head4 = new ListNode(3);
+        ListNode head5 = new ListNode(3);
         head.next = head2;
         head2.next = head3;
         head3.next = head4;
+        head4.next = head5;
         RemoveDuplicates dupl = new RemoveDuplicates();
-        System.out.println(dupl.deleteDuplicates(head));
+        dupl.deleteDuplicates(head);
     }
 
 

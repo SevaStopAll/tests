@@ -1,4 +1,4 @@
-package ru.job4j.order.source;
+package ru.job4j.order.ru.tests;
 
 public class Test3 {
     public static void main(String[] args) {
