@@ -3,7 +3,7 @@ package ru.job4j.order.ru.tests;
 public class ListNode {
         public int val;
         public ListNode next;
-        ListNode() {}
+        public ListNode() {}
 
         @Override
         public String toString() {

@@ -1,7 +1,6 @@
 package ru.job4j.order.ru.tests;
 
-
-import java.util.*;
+import ru.job4j.order.ru.tests.ListNode;
 
 public class RemoveDuplicates {
 
@@ -19,9 +18,6 @@ public class RemoveDuplicates {
         }
         return head;
     }
-
-
-
 
     public static void main(String[] args) {
         ListNode head = new ListNode(1);
